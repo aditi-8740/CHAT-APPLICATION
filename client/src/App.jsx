@@ -2,7 +2,7 @@ import axios from "axios"
 import Register from "./Pages/Register"
 
 function App() {
-  axios.defaults.baseURL = API_URL
+  axios.defaults.baseURL = 'https://chat-application-api-seven.vercel.app/?vercelToolbarCode=RmHhYwogb8VCEUt'
   axios.defaults.withCredentials = true
   return (
     <>
